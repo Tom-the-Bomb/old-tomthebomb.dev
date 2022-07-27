@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200&display=swap');
+
+a {
+    text-decoration: none !important;
+    outline: none !important;
+}
+
+body {
+    background-image: linear-gradient(rgb(65, 65, 75), rgb(37, 37, 47));
+}
+
+main {
+    display: flex;
+    min-height: calc(100vh - 40px);
+    text-align: center;
+    justify-content: center;
+    color: rgb(230, 218, 218);
+    flex-direction: column;
+    font-family: 'PT Mono', 'monospace';
+    font-size: 65px;
+    text-shadow: 2px 2px 4px rgb(80, 77, 77);
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    color: rgb(196, 188, 188) !important;
+    font-size: 80%;
+    font-family: 'JetBrains Mono', 'PT Mono', 'monospace';
+    background-color: rgb(26, 26, 31) !important;
+    text-align: center;
+    justify-content: center;
+}
+
+.icon {
+    align-self: center;
+    margin-top: 1em;
+    width: 50px;
+    transition: 0.4s;
+}
+
+.icon:hover {
+    transform: translateY(-10px);
+}
+
+#main-image {
+    width: 100px;
+    margin: 0.5em;
+    align-self: center;
+    transition: 0.5s;
+}
+
+#main-image:hover {
+    transform: scale(1.3);
+}
+
+#name {
+    font-size: 25px;
+    color: rgb(224, 186, 186);
+}
+
+#text-hover {
+    display: inherit;
+    flex-direction: inherit;
+    transition: 0.2s;
+}
+
+#text-hover:hover {
+    text-shadow: 5px 5px 10px rgb(80, 77, 77);
+}
