@@ -7,7 +7,10 @@ a {
 }
 
 body {
-    background-image: linear-gradient(rgb(65, 65, 75), rgb(37, 37, 47));
+    background-image: linear-gradient(
+        rgb(65, 65, 75),
+        rgb(37, 37, 47)
+    );
 }
 
 main {
@@ -39,10 +42,18 @@ footer {
     margin-top: 1em;
     width: 50px;
     transition: 0.4s;
+    filter: drop-shadow(
+        2px 3px 3px
+        rgba(161, 23, 23, 0.4)
+    );
 }
 
 .icon:hover {
     transform: translateY(-10px);
+    filter: drop-shadow(
+        5px 5px 10px
+        rgba(202, 28, 28, 0.4)
+    );
 }
 
 #main-image {
